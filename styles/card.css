@@ -24,8 +24,8 @@
 
 .c-holocard__circuits {
   background-color: var(--disableBlue);
-  mask: url("../images/card/circuits_0.svg") no-repeat left;
-  -webkit-mask: url("../images/card/circuits_0.svg") no-repeat left;
+  mask: url("./masks/card/circuits_0.svg") no-repeat left;
+  -webkit-mask: url("./masks/card/circuits_0.svg") no-repeat left;
   margin-top: 4%;
   margin-left: 2%;
   height: 96%;
