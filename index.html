@@ -9,18 +9,54 @@
   <title>GabrielDeori - Portfólio - Desenvolvedor Full Stack | UI/UX</title>
 </head>
 <body>
-  <main class="landing-page">
-    <div class="c-holocard m-can__hover">
-      <div class="c-holocard__circuits"></div>
+    <header class="c-principal__header">
+      <h6 class="c-attention">This portfolio is on BETA</h6>
+      <noscript>
+        <h1>Gabriel de Oliveira Ribeiro</h1>
+        <h2>Portifólio</h2>
+        <a href="">
+          Esse site não funcionará sem JS,tente acessar
+          o Portifolio diretamente por aqui
+        </a>
+      </noscript>
+    </header>
+  <main class="c-principal__main">
+    <a href="" class="c-redir__portfolio m-disabled">
+      <p>Portifolio</p>
+    </a>
+    <div id="holocard1" class="c-holocard m-can__hover m-clickable">
+      <img class="c-holocard__circuits"></img>
+      <img class="c-svg m-icon1"></img>
+      <div class="c-holotitle">
+        <h2>CRIATIVIDADE</h2>
+      </div>
     </div>
-    <div class="c-holocard m-can__hover">
-      <div class="c-holocard__circuits"></div>
+    <div id="holocard2" class="c-holocard m-can__hover m-clickable">
+      <img class="c-holocard__circuits"></img>
+      <img class="c-svg m-icon2"></img>
+      <div class="c-holotitle">
+        <h2>TEAMWORK</h2>
+      </div>
     </div>
-    <div class="c-holocard m-can__hover">
-      <div class="c-holocard__circuits"></div>
+    <div id="holocard3" class="c-holocard m-can__hover m-clickable">
+      <img class="c-holocard__circuits"></img>
+      <img class="c-svg m-icon3"></img>
+      <div class="c-holotitle">
+        <h2>BOAS-PRÁTICAS</h2>
+      </div>
+    </div>
+    <div id="holocard4" class="c-holocard m-holospecial m-disabled">
+      <img class="c-holocard__circuits"></img>
+      <img class="c-svg m-icon4"></img>
+      <div class="c-holotitle">
+        <h2>Extra card</h2>
+      </div>
     </div>
     <div class="c-hologram"></div>
-    <div class="c-holocover"></div>
+    <div class="c-holocover">
+      <article id="holocontent" class="c-holocontent">
+      </article>
+    </div>
   </main>
 </body>
 <script type="module" src="./scripts/index.js"></script>

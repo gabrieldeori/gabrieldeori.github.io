@@ -1,24 +1,32 @@
-function clickCardListener() {
-  const CLASS_HOLOCARD = "c-holocard";
-  const CLASS_HOLOGRAM = "c-hologram";
-  const CLASS_HOLOCOVER = "c-holocover";
-  const CLASS_CLICKED_CARD = "m-clicked__card";
-  const CLASS_CAN_HOVER = "m-can__hover";
-  const CLASS_ACTIVE = "m-active";
+import CLASSES from "../variables/CLASSES.js";
 
-  const cards = Array
-    .from(document.getElementsByClassName(CLASS_HOLOCARD));
+function mainClassHandler(paramCard, cards) {
   const hologram = Array
-    .from(document.getElementsByClassName(CLASS_HOLOGRAM))[0];
+    .from(document.getElementsByClassName(CLASSES.HOLOGRAM))[0];
   const holocover = Array
-    .from(document.getElementsByClassName(CLASS_HOLOCOVER))[0]
+    .from(document.getElementsByClassName(CLASSES.HOLOCOVER))[0];
+
+  paramCard.classList.add(CLASSES.CLICKED_CARD);
+  hologram.classList.add(CLASSES.ACTIVE);
+  holocover.classList.dd(CLASSES.ACTIVE);
+
+  cards.forEach((card) => {
+    card.classList.remove(CLASSES.CLICKABLE);
+    card.classList.remove(CLASSES.CAN_HOVER);
+  });
+}
+
+function clickCardListener() {
+  const cards = Array
+    .from(document.getElementsByClassName(CLASSES.HOLOCARD));
 
   cards.forEach(card => {
     card.addEventListener("click", (_e) => {
-      card.classList.add(CLASS_CLICKED_CARD);
-      card.classList.remove(CLASS_CAN_HOVER);
-      hologram.classList.add(CLASS_ACTIVE);
-      holocover.classList.add(CLASS_ACTIVE);
+      const clickable = card.classList.contains(CLASSES.CLICKABLE);
+
+      if (clickable) {
+        mainClassHandler(card, cards);
+      }
     });
   });
 }
