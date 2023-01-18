@@ -1,0 +1,72 @@
+{
+  "name": "gabrieldeori.github.io",
+  "version": "0.3.0",
+  "description": "Portfolio - Gabriel Deori",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "npm test -- --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrieldeori/gabrieldeori.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "dev",
+    "developer",
+    "web",
+    "design",
+    "designer",
+    "ui",
+    "ux",
+    "ui/ux",
+    "full",
+    "stack",
+    "fullstack",
+    "full-stack",
+    "software",
+    "engineer",
+    "computer",
+    "science",
+    "Trybe",
+    "TDD",
+    "Test",
+    "Driven",
+    "Development",
+    "junior",
+    "pleno",
+    "senior",
+    "business",
+    "platform",
+    "e-commerce",
+    "landing",
+    "page",
+    "fintech",
+    "learning",
+    "educational"
+  ],
+  "author": "gabrieldeori",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/gabrieldeori/gabrieldeori.github.io/issues"
+  },
+  "homepage": "https://github.com/gabrieldeori/gabrieldeori.github.io#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  }
+}
