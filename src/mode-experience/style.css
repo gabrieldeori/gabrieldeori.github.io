@@ -12,3 +12,7 @@
 .hidden {
   visibility: hidden;
 }
+
+.disable {
+  display: none;
+}
