@@ -10,6 +10,6 @@
   background-color: rgb(37, 37, 37);
   height: var(--experience_frame-H);
   justify-content: center;
-  /* overflow: hidden; */
+  overflow: hidden;
   width: var(--experience_frame-W);
 }
