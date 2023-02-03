@@ -1,10 +1,10 @@
 @import url("./transitions.css");
 
 :root {
-  --startScale: 1.2012;
-  --scale1: 0.858;
-  --scale2: 0.715;
-  --scale3: 0.65;
+  --startScale: 1.0985;
+  --scale1: 0.845;
+  --scale2: 0.65;
+  --scale3: 0.5;
 }
 
 .background_frame {
@@ -39,7 +39,7 @@
   height: 100%;
   position: relative;
   scale: var(--scale2);
-  translate: 0 -215%;
+  translate: 0 -220%;
   width: 100%;
   z-index: 1;
   /* visibility: hidden; */

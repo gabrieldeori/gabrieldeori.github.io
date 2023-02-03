@@ -1,13 +1,13 @@
 /* .bg_layer-3 */
 @keyframes layer3ToLayerOff {
   25% {
-    transform: scale(2) translate(-1%, -9%);
+    transform: scale(2) translate(-1%, -8.5%);
   }
   50% {
-    transform: scale(4) translate(-1%, -16.5%);
+    transform: scale(4) translate(-2%, -17%);
   }
   100% {
-    transform: scale(10, 8) translate(-1%, -17%);
+    transform: scale(10, 8) translate(-2%, -18%);
   }
 }
 
@@ -44,7 +44,7 @@
     transform: scale(1.2);
   }
   100% {
-    transform: scale(1.4) translate(0, 10%);;
+    transform: scale(1.3) translate(0, 10%);;
     filter: blur(0);
   }
 }
@@ -58,7 +58,7 @@
     transform: scale(1.2);
   }
   100% {
-    transform: scale(1.4) translate(0, 5%);
+    transform: scale(1.3) translate(0, 10%);
   }
 }
 
@@ -71,7 +71,7 @@
     transform: scale(1.2);
   }
   100% {
-    transform: scale(1.4) translate(0, 5%);
+    transform: scale(1.3);
   }
 }
 
