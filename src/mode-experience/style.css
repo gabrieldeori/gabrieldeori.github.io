@@ -9,10 +9,6 @@
   width: calc(16 * 4vw);
 }
 
-.hidden_0 {
+.hidden {
   visibility: hidden;
-}
-
-.innactive_0 {
-  display: none;
 }
