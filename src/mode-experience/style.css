@@ -1,10 +1,15 @@
 @import url("./backgrounds/initial.css");
 @import url("./backgrounds/transitions.css");
 
+:root {
+  --experience_frame-H: calc(9 * 4vw);
+  --experience_frame-W: calc(16 * 4vw);
+}
+
 .experience_frame {
   background-color: rgb(37, 37, 37);
-  height: calc(9 * 4vw);
+  height: var(--experience_frame-H);
   justify-content: center;
-  overflow: hidden;
-  width: calc(16 * 4vw);
+  /* overflow: hidden; */
+  width: var(--experience_frame-W);
 }

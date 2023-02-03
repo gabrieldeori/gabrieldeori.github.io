@@ -17,8 +17,8 @@
   width: 100%;
   height: 100%;
   position: relative;
-  translate: 5% -110%;
-  scale: 0.5 0.8;
+  translate: 0 0;
+  scale: 1 1;
   z-index: 2;
   filter: blur(4px);
 }
@@ -27,8 +27,8 @@
   width: 100%;
   height: 100%;
   position: relative;
-  translate: 2% -213%;
-  scale: 0.25 0.5;
+  translate: 0 0;
+  scale: 1 1;
   z-index: 1;
   filter: blur(4px);
 }
@@ -37,8 +37,8 @@
   width: 100%;
   height: 100%;
   position: relative;
-  translate: 12% -313%;
-  scale: 0.5 0.75;
+  translate: 0 0;
+  scale: 1 1;
   z-index: 0;
   filter: blur(4px);
 }
