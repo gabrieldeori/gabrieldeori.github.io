@@ -1,55 +1,45 @@
 /* Transition 1 */
 
 @keyframes layer3ToHidea {
-  57% {
-    transform: scale(2) translateY(-7.5%);
-  }
   100% {
-    transform: scale(30) translateY(-20%);
-    visibility: hidden;
+    filter: blur(10px);
+    opacity: 0;
+    transform: scale(22);
   }
 }
 
-.transition1a {
+.transition_1-0 {
   animation: layer3ToHidea 3s ease-in forwards;
 }
 
 @keyframes layer2ToLayer3b {
   100% {
-    transform: scale(2, 1.25) translate(-5%, 10%);
-    filter: blur(0px)
+    transform: scale(1, 1) translate(-5%, 0);
+    filter: blur(0);
   }
 }
 
-.transition1b {
-  animation: layer2ToLayer3b 2s ease-in forwards;
+.transition_2-1 {
+  animation: layer2ToLayer3b 3s ease-in forwards;
 }
 
 
 @keyframes layer1ToLayer2c {
   100% {
-    transform: scale(2, 1.6) translate(-10%, -4%);
+    transform: scale(1, 1) translate(-5%, 15%);
   }
 }
 
-.transition1c {
-  animation: layer1ToLayer2c 2.5s forwards;
+.transition_3-2 {
+  animation: layer1ToLayer2c 3s forwards;
 }
 
 @keyframes layer0ToLayer1d {
   100% {
-    transform: scale(1.75 1.5) translateX(25%);
+    transform: scale(1, 1) translate(-5%, 0);
   }
 }
 
-.transition1d {
-  animation: layer0ToLayer1d 5s forwards;
+.transition_4-3 {
+  animation: layer0ToLayer1d 3s forwards;
 }
-
-/* Transition 2 */
-
-/* Transition 3 */
-
-
-
-/* Transition 4 */
