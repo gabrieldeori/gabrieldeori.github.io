@@ -1,29 +1,33 @@
-@keyframes layer3ToLayerOff { /* .bg_layer-3 */
+/* .bg_layer-3 */
+@keyframes layer3ToLayerOff {
   100% {
   }
 }
 
-@keyframes layer2ToLayer3 { /* .bg_layer-2 */
+/* .bg_layer-2 */
+@keyframes layer2ToLayer3 {
   100% {
   }
 }
 
-@keyframes layer1ToLayer2 { /* .bg_layer-1 */
+/* .bg_layer-1 */
+@keyframes layer1ToLayer2 {
   100% {
   }
 }
 
-@keyframes layer0ToLayer1 { /* .bg_layer-0 */
+/* .bg_layer-0 */
+@keyframes layer0ToLayer1 {
   100% {
   }
 }
 
 .transition_a3-off {
-  animation: layer3ToLayerOff 3s forwards;
+  animation: layer3ToLayerOff 2s forwards;
 }
 
 .transition_a2-3 {
-  animation: layer2ToLayer3 0.5s ease-in forwards;
+  animation: layer2ToLayer3 2s ease-in forwards;
 }
 
 .transition_a1-2 {
