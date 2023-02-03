@@ -2,12 +2,13 @@
 @import url("./backgrounds/transitions.css");
 
 :root {
-  --experience_frame-H: calc(9 * 4vw);
-  --experience_frame-W: calc(16 * 4vw);
+  --experience_frame-H: calc(9 * 5vw);
+  --experience_frame-W: calc(16 * 5vw);
 }
 
 .experience_frame {
-  background-color: rgb(37, 37, 37);
+  background-color: red;
+  border: 2px inset yellow;
   height: var(--experience_frame-H);
   justify-content: center;
   overflow: hidden;

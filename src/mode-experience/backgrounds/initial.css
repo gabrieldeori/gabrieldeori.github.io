@@ -6,39 +6,45 @@
   width: 100%;
 }
 
-.city_background-3 {
+.bg_layer-3 {
   height: 100%;
   position: relative;
+  scale: 1 1;
+  translate: 0 0;
   width: 100%;
   z-index: 3;
+  /* visibility: hidden;  */
 }
 
-.city_background-2 {
+.bg_layer-2 {
   filter: blur(1px);
   height: 100%;
   position: relative;
-  scale: 0.5 1;
-  translate: 5% -100%;
+  scale: 1 1;
+  translate: 0 -100%;
   width: 100%;
   z-index: 2;
+  /* visibility: hidden; */
 }
 
-.city_background-1 {
+.bg_layer-1 {
   filter: blur(1px);
   height: 100%;
   position: relative;
-  scale: 0.4 0.8;
-  translate: 10% -215%;
+  scale: 1 1;
+  translate: 0 -200%;
   width: 100%;
   z-index: 1;
+  /* visibility: hidden; */
 }
 
-.city_background-0 {
+.bg_layer-0 {
   filter: blur(1px);
   height: 100%;
   position: relative;
-  scale: 0.2 0.8;
-  translate: 20% -315%;
+  scale: 1 1;
+  translate: 0 -300%;
   width: 100%;
   z-index: 0;
+  /* visibility: hidden; */
 }

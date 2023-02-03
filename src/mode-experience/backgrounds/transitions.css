@@ -1,45 +1,38 @@
 /* Transition 1 */
 
-@keyframes layer3ToHidea {
+@keyframes layer3ToLayerOff { /* .bg_layer-3 */
   100% {
-    filter: blur(10px);
-    opacity: 0;
-    transform: scale(22);
   }
 }
 
-.transition_1-0 {
-  animation: layer3ToHidea 3s ease-in forwards;
+.transition_a3-off {
+  animation: layer3ToLayerOff 3s forwards;
 }
 
-@keyframes layer2ToLayer3b {
+@keyframes layer2ToLayer3 { /* .bg_layer-2 */
   100% {
-    transform: scale(1, 1) translate(-5%, 0);
-    filter: blur(0);
   }
 }
 
-.transition_2-1 {
-  animation: layer2ToLayer3b 3s ease-in forwards;
+.transition_a2-3 {
+  animation: layer2ToLayer3 0.5s ease-in forwards;
 }
 
 
-@keyframes layer1ToLayer2c {
+@keyframes layer1ToLayer2 { /* .bg_layer-1 */
   100% {
-    transform: scale(1, 1) translate(-5%, 15%);
   }
 }
 
-.transition_3-2 {
-  animation: layer1ToLayer2c 3s forwards;
+.transition_a1-2 {
+  animation: layer1ToLayer2 2s forwards;
 }
 
-@keyframes layer0ToLayer1d {
+@keyframes layer0ToLayer1 { /* .bg_layer-0 */
   100% {
-    transform: scale(1, 1) translate(-5%, 0);
   }
 }
 
-.transition_4-3 {
-  animation: layer0ToLayer1d 3s forwards;
+.transition_a0-1 {
+  animation: layer0ToLayer1 2s forwards;
 }
