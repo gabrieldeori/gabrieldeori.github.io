@@ -17,8 +17,8 @@
   filter: blur(1px);
   height: 100%;
   position: relative;
-  scale: 1 1;
-  translate: 0 -100%;
+  scale: 0.6 1;
+  translate: 5% -100%;
   width: 100%;
   z-index: 2;
 }
@@ -27,8 +27,8 @@
   filter: blur(1px);
   height: 100%;
   position: relative;
-  scale: 1 1;
-  translate: 0 -200%;
+  scale: 0.4 0.8;
+  translate: 10% -215%;
   width: 100%;
   z-index: 1;
 }
@@ -37,8 +37,8 @@
   filter: blur(1px);
   height: 100%;
   position: relative;
-  scale: 1 1;
-  translate: 0 -300%;
+  scale: 0.2 0.8;
+  translate: 20% -315%;
   width: 100%;
   z-index: 0;
 }
