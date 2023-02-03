@@ -1,0 +1,55 @@
+/* Transition 1 */
+
+@keyframes layer3ToHidea {
+  57% {
+    transform: scale(2) translateY(-7.5%);
+  }
+  100% {
+    transform: scale(30) translateY(-20%);
+    visibility: hidden;
+  }
+}
+
+.transition1a {
+  animation: layer3ToHidea 3s ease-in forwards;
+}
+
+@keyframes layer2ToLayer3b {
+  100% {
+    transform: scale(2, 1.25) translate(-5%, 10%);
+    filter: blur(0px)
+  }
+}
+
+.transition1b {
+  animation: layer2ToLayer3b 2s ease-in forwards;
+}
+
+
+@keyframes layer1ToLayer2c {
+  100% {
+    transform: scale(2, 1.6) translate(-10%, -4%);
+  }
+}
+
+.transition1c {
+  animation: layer1ToLayer2c 2.5s forwards;
+}
+
+@keyframes layer0ToLayer1d {
+  100% {
+    transform: scale(1.75 1.5) translateX(25%);
+  }
+}
+
+.transition1d {
+  animation: layer0ToLayer1d 5s forwards;
+}
+
+/* Transition 2 */
+
+/* Transition 3 */
+
+
+
+/* Transition 4 */
