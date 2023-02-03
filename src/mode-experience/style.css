@@ -1,0 +1,18 @@
+@import url("./backgrounds/initial.css");
+@import url("./backgrounds/transitions.css");
+
+.experience_frame {
+  background-color: rgb(37, 37, 37);
+  height: calc(9 * 4vw);
+  justify-content: center;
+  overflow: hidden;
+  width: calc(16 * 4vw);
+}
+
+.hidden_0 {
+  visibility: hidden;
+}
+
+.innactive_0 {
+  display: none;
+}
