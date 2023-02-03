@@ -1,39 +1,100 @@
 /* .bg_layer-3 */
 @keyframes layer3ToLayerOff {
+  25% {
+    transform: scale(2) translate(-1%, -9%);
+  }
+  50% {
+    transform: scale(4) translate(-1%, -16.5%);
+  }
   100% {
+    transform: scale(10, 8) translate(-1%, -17%);
+  }
+}
+
+@keyframes layer2ToLayerOff {
+  25% {
+    transform: scale(2) translate(-1%, -5%);
+  }
+  50% {
+    transform: scale(4) translate(-2%, -7%);
+  }
+  100% {
+    transform: scale(10, 8) translate(-1%, -7%);
+  }
+}
+
+@keyframes layer1ToLayerOff {
+  25% {
+    transform: scale(2) translate(-15%, -12%);
+  }
+  50% {
+    transform: scale(4) translate(-17%, -18%);
+  }
+  100% {
+    transform: scale(10, 8) translate(-20%, -20%);
   }
 }
 
 /* .bg_layer-2 */
 @keyframes layer2ToLayer3 {
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
   100% {
+    transform: scale(1.4) translate(0, 10%);;
+    filter: blur(0);
   }
 }
 
 /* .bg_layer-1 */
 @keyframes layer1ToLayer2 {
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
   100% {
+    transform: scale(1.4) translate(0, 5%);
   }
 }
 
 /* .bg_layer-0 */
 @keyframes layer0ToLayer1 {
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
   100% {
+    transform: scale(1.4) translate(0, 5%);
   }
 }
 
 .transition_a3-off {
-  animation: layer3ToLayerOff 2s forwards;
+  animation: layer3ToLayerOff 4s forwards;
+}
+
+.transition_a2-off {
+  animation: layer2ToLayerOff 4s forwards;
+}
+
+.transition_a1-off {
+  animation: layer1ToLayerOff 4s forwards;
 }
 
 .transition_a2-3 {
-  animation: layer2ToLayer3 2s ease-in forwards;
+  animation: layer2ToLayer3 4s forwards;
 }
 
 .transition_a1-2 {
-  animation: layer1ToLayer2 2s forwards;
+  animation: layer1ToLayer2 4s forwards;
 }
 
 .transition_a0-1 {
-  animation: layer0ToLayer1 2s forwards;
+  animation: layer0ToLayer1 4s forwards;
 }

@@ -1,5 +1,12 @@
 @import url("./transitions.css");
 
+:root {
+  --startScale: 1.2012;
+  --scale1: 0.858;
+  --scale2: 0.715;
+  --scale3: 0.65;
+}
+
 .background_frame {
   background-color: rgb(37, 37, 37);
   height: 100%;
@@ -9,19 +16,19 @@
 .bg_layer-3 {
   height: 100%;
   position: relative;
-  scale: 1 1;
+  scale: var(--startScale );
   translate: 0 0;
   width: 100%;
   z-index: 3;
-  /* visibility: hidden;  */
+  /* visibility: hidden; */
 }
 
 .bg_layer-2 {
   filter: blur(1px);
   height: 100%;
   position: relative;
-  scale: 0.8 0.8;
-  translate: 0 -100%;
+  scale: var(--scale1);
+  translate: 0 -110%;
   width: 100%;
   z-index: 2;
   /* visibility: hidden; */
@@ -31,8 +38,8 @@
   filter: blur(1px);
   height: 100%;
   position: relative;
-  scale: 0.64 0.64;
-  translate: 0 -200%;
+  scale: var(--scale2);
+  translate: 0 -215%;
   width: 100%;
   z-index: 1;
   /* visibility: hidden; */
@@ -42,8 +49,8 @@
   filter: blur(1px);
   height: 100%;
   position: relative;
-  scale: 0.512 0.512;
-  translate: 0 -300%;
+  scale: var(--scale3);
+  translate: 0 -320%;
   width: 100%;
   z-index: 0;
   /* visibility: hidden; */
