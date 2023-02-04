@@ -10,7 +10,10 @@ const bb = document.getElementById("bb");
 const bc = document.getElementById("bc");
 const bd = document.getElementById("bd");
 
-const  BG_WALK_TIME = 4000;
+const  BG_WALK_TIME = 3000;
+
+const root = document.documentElement;
+root.style.setProperty("--bg_walk_time", `${BG_WALK_TIME/1000}s`);
 
 ba.addEventListener("click", (_e) => {
   cbg3.classList.add("transition_a3-off");
