@@ -66,4 +66,4 @@ bd.addEventListener("click", (_e)=> {
   cbg2.classList.add("bg_layer-2");
   cbg1.classList.add("bg_layer-1");
   cbg0.classList.add("bg_layer-0");
-})
+});
