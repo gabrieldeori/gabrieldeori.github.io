@@ -10,6 +10,8 @@ const bb = document.getElementById("bb");
 const bc = document.getElementById("bc");
 const bd = document.getElementById("bd");
 
+const  BG_WALK_TIME = 4000;
+
 ba.addEventListener("click", (_e) => {
   cbg3.classList.add("transition_a3-off");
   cbg2.classList.add("transition_a2-3");
@@ -24,7 +26,7 @@ ba.addEventListener("click", (_e) => {
     cbg2.classList.add("bg_layer-3");
     cbg1.classList.add("bg_layer-2");
     cbg0.classList.add("bg_layer-1");
-  }, 4000);
+  }, BG_WALK_TIME);
 });
 
 bb.addEventListener("click", (_e) => {
@@ -38,7 +40,7 @@ bb.addEventListener("click", (_e) => {
     cbg2.classList.add("disabled");
     cbg1.classList.add("bg_layer-3");
     cbg0.classList.add("bg_layer-2");
-  }, 4000);
+  }, BG_WALK_TIME);
 });
 
 bc.addEventListener("click", (_e) => {
@@ -49,7 +51,7 @@ bc.addEventListener("click", (_e) => {
     cbg0.className = "";
     cbg1.classList.add("disabled");
     cbg0.classList.add("bg_layer-3");
-  }, 4000);
+  }, BG_WALK_TIME);
 });
 
 bd.addEventListener("click", (_e)=> {

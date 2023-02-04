@@ -1,4 +1,8 @@
-/* .bg_layer-3 */
+:root {
+  --bg_walk_time: 4s;
+}
+
+/*Off layers*/
 @keyframes layer3ToLayerOff {
   25% {
     transform: scale(2) translate(-1%, -8.5%);
@@ -31,7 +35,7 @@
     transform: scale(4) translate(-17%, -18%);
   }
   100% {
-    transform: scale(10, 8) translate(-20%, -20%);
+    transform: scale(10, 8) translate(-20%, -19%);
   }
 }
 
@@ -76,25 +80,25 @@
 }
 
 .transition_a3-off {
-  animation: layer3ToLayerOff 4s forwards;
+  animation: layer3ToLayerOff var(--bg_walk_time) forwards;
 }
 
 .transition_a2-off {
-  animation: layer2ToLayerOff 4s forwards;
+  animation: layer2ToLayerOff var(--bg_walk_time) forwards;
 }
 
 .transition_a1-off {
-  animation: layer1ToLayerOff 4s forwards;
+  animation: layer1ToLayerOff var(--bg_walk_time) forwards;
 }
 
 .transition_a2-3 {
-  animation: layer2ToLayer3 4s forwards;
+  animation: layer2ToLayer3 var(--bg_walk_time) forwards;
 }
 
 .transition_a1-2 {
-  animation: layer1ToLayer2 4s forwards;
+  animation: layer1ToLayer2 var(--bg_walk_time) forwards;
 }
 
 .transition_a0-1 {
-  animation: layer0ToLayer1 4s forwards;
+  animation: layer0ToLayer1 var(--bg_walk_time) forwards;
 }
