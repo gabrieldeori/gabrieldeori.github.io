@@ -1,16 +1,18 @@
 const experienceFrame = document.getElementsByClassName("experience_frame")[0];
 
-const cbg3 = document.getElementsByClassName("bg_layer-3")[0];
-const cbg2 = document.getElementsByClassName("bg_layer-2")[0];
-const cbg1 = document.getElementsByClassName("bg_layer-1")[0];
-const cbg0 = document.getElementsByClassName("bg_layer-0")[0];
+const  BG_WALK_TIME = 3000;
 
 const ba = document.getElementById("ba");
 const bb = document.getElementById("bb");
 const bc = document.getElementById("bc");
 const bd = document.getElementById("bd");
 
-const  BG_WALK_TIME = 3000;
+const cbg3 = document.getElementsByClassName("bg_layer-3")[0];
+const cbg2 = document.getElementsByClassName("bg_layer-2")[0];
+const cbg1 = document.getElementsByClassName("bg_layer-1")[0];
+const cbg0 = document.getElementsByClassName("bg_layer-0")[0];
+
+const backgroundFrame = document.getElementById("backgroundFrame");
 
 const root = document.documentElement;
 root.style.setProperty("--bg_walk_time", `${BG_WALK_TIME/1000}s`);
@@ -66,4 +68,16 @@ bd.addEventListener("click", (_e)=> {
   cbg2.classList.add("bg_layer-2");
   cbg1.classList.add("bg_layer-1");
   cbg0.classList.add("bg_layer-0");
+});
+
+backgroundFrame.addEventListener("mousemove", (e) => {
+  const abg3 = document.getElementsByClassName("bg_layer-3")[0];
+  const abg2 = document.getElementsByClassName("bg_layer-2")[0];
+  const abg1 = document.getElementsByClassName("bg_layer-1")[0];
+  const abg0 = document.getElementsByClassName("bg_layer-0")[0];
+
+  abg3.style.transform = `translate(${-e.clientX/200}%, ${-e.clientY/200}%)`
+  abg2.style.transform = `translate(${e.clientX/500}%, ${e.clientY/500}%)`
+  abg1.style.transform = `translate(${e.clientX/400}%, ${e.clientY/400}%)`
+  abg0.style.transform = `translate(${e.clientX/200}%, ${e.clientY/200}%)`
 });
