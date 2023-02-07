@@ -17,7 +17,7 @@
   height: 100%;
   position: relative;
   scale: var(--startScale );
-  translate: -4% 0;
+  translate: -3% -5%;
   width: 100%;
   z-index: 3;
 }
@@ -27,7 +27,7 @@
   height: 100%;
   position: relative;
   scale: var(--scale1);
-  translate: 0 -110%;
+  translate: 2% -112%;
   width: 100%;
   z-index: 2;
 }
@@ -37,7 +37,7 @@
   height: 100%;
   position: relative;
   scale: var(--scale2);
-  translate: 0 -220%;
+  translate: 5% -220%;
   width: 100%;
   z-index: 1;
 }
@@ -47,7 +47,7 @@
   height: 100%;
   position: relative;
   scale: var(--scale3);
-  translate: 0 -325%;
+  translate: 0% -325%;
   width: 100%;
   z-index: 0;
 }
