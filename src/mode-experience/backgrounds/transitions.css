@@ -5,37 +5,37 @@
 /*Off layers*/
 @keyframes layer3ToLayerOff {
   25% {
-    transform: scale(2) translate(-1%, -8.5%);
+    transform: scale(2) translate(-1%, -9%);
   }
   50% {
-    transform: scale(4) translate(-2%, -17%);
+    transform: scale(4) translate(-2%, -17.5%);
   }
   100% {
-    transform: scale(10, 8) translate(-2%, -18%);
+    transform: scale(10, 8) translate(-2%, -17.5%);
   }
 }
 
 @keyframes layer2ToLayerOff {
   25% {
-    transform: scale(2) translate(-1%, -5%);
+    transform: scale(2) translate(-1%, -6%);
   }
   50% {
-    transform: scale(4) translate(-2%, -7%);
+    transform: scale(4) translate(-2%, -8%);
   }
   100% {
-    transform: scale(10, 8) translate(-1%, -7%);
+    transform: scale(10, 8) translate(-1%, -8.5%);
   }
 }
 
 @keyframes layer1ToLayerOff {
   25% {
-    transform: scale(2) translate(-15%, -12%);
+    transform: scale(2) translate(-15%, -14%);
   }
   50% {
-    transform: scale(4) translate(-17%, -18%);
+    transform: scale(4) translate(-17%, -19%);
   }
   100% {
-    transform: scale(10, 8) translate(-20%, -19%);
+    transform: scale(10, 8) translate(-20%, -19.5%);
   }
 }
 
