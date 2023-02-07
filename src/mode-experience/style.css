@@ -8,6 +8,7 @@
 }
 
 .experience_frame {
+  border: 1px inset yellow;
   height: var(--experience_frame-H);
   justify-content: center;
   overflow: hidden;
@@ -19,5 +20,5 @@
   position: relative;
   translate: 0 -200%;
   width: 100%;
-  z-index: 20;
+  z-index: 10000;
 }
