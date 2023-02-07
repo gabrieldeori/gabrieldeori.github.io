@@ -17,7 +17,7 @@
   height: 100%;
   position: relative;
   scale: var(--startScale );
-  translate: -2% 0;
+  translate: -4% 0;
   width: 100%;
   z-index: 3;
 }
@@ -47,7 +47,7 @@
   height: 100%;
   position: relative;
   scale: var(--scale3);
-  translate: 0 -320%;
+  translate: 0 -325%;
   width: 100%;
   z-index: 0;
 }

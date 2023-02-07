@@ -75,9 +75,13 @@ backgroundFrame.addEventListener("mousemove", (e) => {
   const abg2 = document.getElementsByClassName("bg_layer-2")[0];
   const abg1 = document.getElementsByClassName("bg_layer-1")[0];
   const abg0 = document.getElementsByClassName("bg_layer-0")[0];
+  const winHeight = window.innerHeight;
+  const winWidth = window.innerWidth;
+  const translateX = e.clientX/winWidth;
+  const translateY = e.clientY/winHeight;
 
-  abg3.style.transform = `translate(${-e.clientX/200}%, ${-e.clientY/200}%)`
-  abg2.style.transform = `translate(${e.clientX/500}%, ${e.clientY/500}%)`
-  abg1.style.transform = `translate(${e.clientX/400}%, ${e.clientY/400}%)`
-  abg0.style.transform = `translate(${e.clientX/200}%, ${e.clientY/200}%)`
+  abg3.style.transform = `translate(${translateX * 4}%, ${translateY * 3}%)`
+  abg2.style.transform = `translate(${translateX * 3}%, ${translateY * 2}%)`
+  abg1.style.transform = `translate(${translateX * 2}%, ${translateY}%)`
+  abg0.style.transform = `translate(${translateX}%, ${translateY / 4}%)`
 });
