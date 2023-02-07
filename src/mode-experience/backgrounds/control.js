@@ -12,7 +12,7 @@ const cbg2 = document.getElementsByClassName("bg_layer-2")[0];
 const cbg1 = document.getElementsByClassName("bg_layer-1")[0];
 const cbg0 = document.getElementsByClassName("bg_layer-0")[0];
 
-const backgroundFrame = document.getElementById("backgroundFrame");
+const activeFrame = document.getElementById("activeFrame");
 
 const root = document.documentElement;
 root.style.setProperty("--bg_walk_time", `${BG_WALK_TIME/1000}s`);
@@ -70,7 +70,7 @@ bd.addEventListener("click", (_e)=> {
   cbg0.classList.add("bg_layer-0");
 });
 
-backgroundFrame.addEventListener("mousemove", (e) => {
+activeFrame.addEventListener("mousemove", (e) => {
   const abg3 = document.getElementsByClassName("bg_layer-3")[0];
   const abg2 = document.getElementsByClassName("bg_layer-2")[0];
   const abg1 = document.getElementsByClassName("bg_layer-1")[0];

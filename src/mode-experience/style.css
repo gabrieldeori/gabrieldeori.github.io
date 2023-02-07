@@ -1,5 +1,6 @@
 @import url("./backgrounds/initial.css");
 @import url("./backgrounds/transitions.css");
+@import url("./actors/style.css");
 
 :root {
   --experience_frame-H: calc(9 * 5vw);
@@ -7,10 +8,16 @@
 }
 
 .experience_frame {
-  background-color: red;
-  border: 2px inset yellow;
   height: var(--experience_frame-H);
   justify-content: center;
   overflow: hidden;
   width: var(--experience_frame-W);
+}
+
+.active_frame {
+  height: 100%;
+  position: relative;
+  translate: 0 -200%;
+  width: 100%;
+  z-index: 20;
 }

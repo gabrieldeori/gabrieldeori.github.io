@@ -1,0 +1,13 @@
+.actor_frame {
+  height: 100%;
+  translate: 0 -100%;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+
+.deori_actor-0 {
+  height: 60%;
+  position: relative;
+  z-index: 11;
+}
