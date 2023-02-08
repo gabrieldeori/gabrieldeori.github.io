@@ -1,25 +1,9 @@
+@import url("./initial.css");
+
 .actor_frame {
   height: 100%;
   translate: 0 -100%;
   position: relative;
   width: 100%;
   z-index: 100;
-}
-
-.deori_actor-0 {
-  height: 75%;
-  position: relative;
-  scale: -1 1;
-  translate: -100% 33%;
-  z-index: 101;
-  animation: deoriAppear1 1.5s ease-out forwards;
-}
-
-@keyframes deoriAppear1 {
-  0% {
-    transform: translate(0);
-  }
-  100% {
-    transform: translate(-100%, 0);
-  }
 }

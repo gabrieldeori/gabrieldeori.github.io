@@ -1,0 +1,35 @@
+.deori_actor-0 {
+  height: 75%;
+  position: relative;
+  z-index: 101;
+}
+
+.initial_pos-0 {
+  translate: 0% 33%;
+  scale: -1 1;
+  animation: deoriAppear1 1.5s ease-out forwards;
+}
+
+.initial_pos-1 {
+  translate: 0% 33%;
+  scale: 1 1;
+  animation: deoriAppear2 1.5s ease-out forwards;
+}
+
+@keyframes deoriAppear1 {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(0%, 0);
+  }
+}
+
+@keyframes deoriAppear2 {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(0%, 0);
+  }
+}
