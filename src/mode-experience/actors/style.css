@@ -1,0 +1,9 @@
+@import url("./initial.css");
+
+.actor_frame {
+  height: 100%;
+  translate: 0 -100%;
+  position: relative;
+  width: 100%;
+  z-index: 100;
+}

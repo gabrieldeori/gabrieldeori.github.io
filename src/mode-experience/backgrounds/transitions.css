@@ -1,0 +1,104 @@
+:root {
+  --bg_walk_time: 4s;
+}
+
+/*Off layers*/
+@keyframes layer3ToLayerOff {
+  25% {
+    transform: scale(2) translate(-1%, -8%);
+  }
+  50% {
+    transform: scale(4) translate(-2%, -17.5%);
+  }
+  100% {
+    transform: scale(11, 7) translate(-2%, -17.5%);
+  }
+}
+
+@keyframes layer2ToLayerOff {
+  25% {
+    transform: scale(2) translate(-1%, -6%);
+  }
+  50% {
+    transform: scale(4) translate(-2%, -8%);
+  }
+  100% {
+    transform: scale(10, 7) translate(-1%, -8%);
+  }
+}
+
+@keyframes layer1ToLayerOff {
+  25% {
+    transform: scale(2) translate(-15%, -14%);
+  }
+  50% {
+    transform: scale(4) translate(-17%, -19%);
+  }
+  100% {
+    transform: scale(10, 7) translate(-20%, -19%);
+  }
+}
+
+/* .bg_layer-2 */
+@keyframes layer2ToLayer3 {
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1.3) translate(-5%, 7%);
+    filter: blur(0);
+  }
+}
+
+/* .bg_layer-1 */
+@keyframes layer1ToLayer2 {
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1.3) translate(-3%, 8%);
+  }
+}
+
+/* .bg_layer-0 */
+@keyframes layer0ToLayer1 {
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1.3) translate(5%, 5%);
+  }
+}
+
+.transition_a3-off {
+  animation: layer3ToLayerOff var(--bg_walk_time) forwards;
+}
+
+.transition_a2-off {
+  animation: layer2ToLayerOff var(--bg_walk_time) forwards;
+}
+
+.transition_a1-off {
+  animation: layer1ToLayerOff var(--bg_walk_time) forwards;
+}
+
+.transition_a2-3 {
+  animation: layer2ToLayer3 var(--bg_walk_time) forwards;
+}
+
+.transition_a1-2 {
+  animation: layer1ToLayer2 var(--bg_walk_time) forwards;
+}
+
+.transition_a0-1 {
+  animation: layer0ToLayer1 var(--bg_walk_time) forwards;
+}
