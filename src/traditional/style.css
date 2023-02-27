@@ -1,29 +1,45 @@
-img {
-  border-radius: 100%;
-  height: 100px;
-  width: 100px;
-}
-
 main.traditional {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-main.traditional h1 {
-  display: block;
+main.traditional section.box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  justify-content: center;
+  width: 100%;
+}
+
+main.traditional .devTitle {
+  color: var(--main-color-0);
+  font-family: "Iceland", "Roboto";
+  font-size: 3.5em;
   text-align: center;
-  border: 1px solid red;
-  font-family: 'Iceland';
-  font-size: 4em;
+  width: fit-content;
   word-wrap: normal;
   word-break:break-word;
 }
 
-.catchphrase {
-  border: 1px, solid, yellow;
+main.traditional .box.catchphrase p {
+  font-family: "Poppins", "sans-serif" ;
+  font-size: 1.125em;
+  letter-spacing: -0.09em;
 }
 
-.catchphrase p {
-  font-size: 5em
+main.traditional .box.hero-photo {
+  background-color: red;
+  background-clip: border-box;
+  border-radius: 50%;
+  height: 14rem;
+  width: 14rem;
+  overflow: hidden;
+}
+
+main.traditional .box.hero-photo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
