@@ -1,0 +1,29 @@
+img {
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+main.traditional {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main.traditional h1 {
+  display: block;
+  text-align: center;
+  border: 1px solid red;
+  font-family: 'Iceland';
+  font-size: 4em;
+  word-wrap: normal;
+  word-break:break-word;
+}
+
+.catchphrase {
+  border: 1px, solid, yellow;
+}
+
+.catchphrase p {
+  font-size: 5em
+}
