@@ -21,7 +21,7 @@ main.traditional {
   align-items: center;
   justify-content: center;
   max-width: 100dvw;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
 }
 
 .main-title {
@@ -32,7 +32,7 @@ main.traditional {
 }
 
 .catchphrase {
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-family: "Poppins";
   font-weight: lighter;
 }
@@ -71,26 +71,42 @@ main.traditional {
   background-color: var(--main-color-0);
   padding: 5rem 2rem;
   align-items: center;
+  text-align: center
 }
 
 .double .introduce p {
-  font-size: 0.85rem;
+  font-size: 1.25rem;
   font-family: "Poppins";
   color: var(--main-background-0);
-  text-align: center;
 }
 
 .double .introduce h2 {
   color: var(--main-background-0);
   font-family: "Iceland";
-  font-size: 1.1rem;
+  font-size: 2rem;
+  font-weight: 600;
   padding: 1.2rem 0;
+}
+
+.double .introduce a {
+  background-color: green;
+  text-decoration: underline;
+  color: white;
+}
+
+.double .introduce a:hover {
+  background-color: #1eb720;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 319px) {
   .main-title {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 500;
+  }
+
+  .catchphrase {
+    font-size: 0.8rem;
   }
 
   .double .introduce p {
@@ -98,7 +114,12 @@ main.traditional {
   }
 
   .double .introduce h2 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding: 1.0rem 0;
+  }
+
+  .double .introduce a:hover {
+    background-color: #1eb720;
+    font-size: 1rem;
   }
 }

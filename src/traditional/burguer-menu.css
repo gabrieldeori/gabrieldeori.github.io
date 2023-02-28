@@ -4,9 +4,9 @@
   --bar-color: white;
 
   display: flex;
-  position: fixed;
-  top: 1%;
-  left: 1%;
+  position: relative;
+  top: 5px;
+  left: 5px;
 }
 
 /* Burguer Button */
