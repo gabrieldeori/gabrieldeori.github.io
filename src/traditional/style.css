@@ -18,8 +18,9 @@ main.traditional {
   align-content: center;
   align-items: center;
   justify-content: center;
+  height: fit-content;
+  min-height: 25dvh;
   max-width: 100dvw;
-  padding: 1.5rem 0;
 }
 
 .main-title {
@@ -59,7 +60,7 @@ main.traditional {
 
 .respite-illustrated {
   justify-content: flex-end;
-  height: 70dvh;
+  height: 25dvh;
 }
 
 .respite-illustrated object {
