@@ -13,7 +13,7 @@ body {
   --main-color-2-translucid: #5C1BAF99;
   --main-background-0: #f9f7f4;
 
-  background-color: var(--main-background-0);
+  background-color: grey;
   align-items: flex-start;
   display: flex;
   flex-direction: column;
