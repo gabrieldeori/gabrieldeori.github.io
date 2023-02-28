@@ -27,3 +27,8 @@ header {
 strong {
   font-weight: bolder;
 }
+
+em {
+  font: 100;
+  font-style: italic;
+}

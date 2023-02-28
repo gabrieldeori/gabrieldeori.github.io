@@ -35,6 +35,10 @@ main.traditional {
   font-size: 1rem;
   font-family: "Poppins";
   font-weight: lighter;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .hero-photo {
@@ -75,8 +79,9 @@ main.traditional {
 }
 
 .double .introduce p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-family: "Poppins";
+  word-spacing: 4px;
   color: var(--main-background-0);
 }
 
@@ -96,7 +101,11 @@ main.traditional {
 
 .double .introduce a:hover {
   background-color: #1eb720;
-  font-size: 1.5rem;
+  font-size: 1rem;
+}
+
+.double .introduce em {
+  font-size: 0.85rem;
 }
 
 @media (max-width: 319px) {
@@ -106,11 +115,12 @@ main.traditional {
   }
 
   .catchphrase {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
   }
 
   .double .introduce p {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
+    word-spacing: 0;
   }
 
   .double .introduce h2 {
