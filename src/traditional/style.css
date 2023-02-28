@@ -1,4 +1,34 @@
-@import url("https://fonts.googleapis.com/css2?family=Iceland&family=Poppins&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Iceland&family=Poppins&family=Roboto&display=swap");
 
 @import url("./burguer-menu.css");
+
+.traditional {
+  background-color: white;
+  width: 100%;
+}
+
+.page-title h1 {
+  color: var(--main-color-0);
+  font-family: "Poppins";
+  font-size: 3.2rem;
+  padding: 5rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.catch-phrase p {
+  font-size: 1.6rem;
+  font-family: "Roboto";
+  text-align: center;
+  padding: 3rem;
+}
+
+.hero-photo {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+}
+
+.hero-photo img {
+  height: 25vh;
+}
