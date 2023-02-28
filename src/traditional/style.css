@@ -39,8 +39,8 @@ section.box {
 .hero-photo {
   background-clip: border-box;
   border-radius: 50%;
-  height: 15rem;
-  width: 15rem;
+  height: 70vw;
+  width: 70vw;
   padding: 0;
   overflow: hidden;
 }
