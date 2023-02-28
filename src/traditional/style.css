@@ -1,45 +1,56 @@
-main.traditional {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+@import url("./burguer-menu.css");
 
-main.traditional section.box {
+main.traditional {
+  background-color: darksalmon;
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 30vh;
   justify-content: center;
   width: 100%;
 }
 
-main.traditional .devTitle {
-  color: var(--main-color-0);
-  font-family: "Iceland", "Roboto";
-  font-size: 3.5em;
+section.box {
+  background-color: aquamarine;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  justify-content: center;
   text-align: center;
-  width: fit-content;
+  width: 100%;
   word-wrap: normal;
   word-break:break-word;
+  padding: 10dvh 0 10dvh 0;
 }
 
-main.traditional .box.catchphrase p {
+.main-title {
+  color: var(--main-color-0);
+  font-family: "Iceland", "Roboto";
+  font-size: 3rem;
+  width: fit-content;
+}
+
+.catchphrase {
   font-family: "Poppins", "sans-serif" ;
-  font-size: 1.125em;
-  letter-spacing: -0.09em;
+  font-size: 1.125rem;
+  letter-spacing: -0.09rem;
 }
 
-main.traditional .box.hero-photo {
-  background-color: red;
+.hero-photo {
   background-clip: border-box;
   border-radius: 50%;
-  height: 12rem;
-  width: 12rem;
+  height: 15rem;
+  width: 15rem;
+  padding: 0;
   overflow: hidden;
 }
 
-main.traditional .box.hero-photo img {
+.hero-photo img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.respite-illustrated object {
+  width: 100%;
 }
