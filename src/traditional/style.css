@@ -26,9 +26,11 @@
 .hero-photo {
   display: flex;
   justify-content: center;
-  background-color: green;
 }
 
 .hero-photo img {
-  height: 25vh;
+  border-radius: 50%;
+  height: 15rem;
+  object-fit: cover;
+  width: 15rem;
 }
