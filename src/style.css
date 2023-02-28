@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Iceland&family=Poppins&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Iceland&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Iceland&family=Poppins&family=Roboto&display=swap");
 
 @import url("./traditional/style.css");
 @import url("./modifiers.css");
 
-body {
+:root {
   --main-color-0: #710DF2;
   --main-color-0-translucid: #710DF299;
   --main-color-1: #141C3A;
@@ -12,12 +13,15 @@ body {
   --main-color-2: #5C1BAF;
   --main-color-2-translucid: #5C1BAF99;
   --main-background-0: #f9f7f4;
+}
 
+html {
+  font-size: 62.5%;
+}
+
+body {
   background-color: grey;
-  align-items: flex-start;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 header {
