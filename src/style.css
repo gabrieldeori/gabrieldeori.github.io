@@ -29,6 +29,6 @@ strong {
 }
 
 em {
-  font: 100;
+  font-weight: lighter;
   font-style: italic;
 }
