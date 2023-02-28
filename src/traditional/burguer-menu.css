@@ -1,4 +1,4 @@
-/* Envólucro */
+/* Wrapper */
 .burguer_menu_wrapper {
   --zindex-position: 9999;
   --bar-color: white;
@@ -9,7 +9,7 @@
   left: 1%;
 }
 
-/*Botão*/
+/* Burguer Button */
 .burger_button {
   background-color: var(--main-color-0-translucid);
   backdrop-filter: blur(2px);
@@ -34,26 +34,11 @@
   width: 1.6rem;
   height: 0.2rem;
   margin: 5px 5px;
+
   transition: all 0.5s ease-out;
 }
 
-.burger_button.active .bar:nth-child(1) {
-  transform: translateY(0.75em) rotate(-45deg);
-}
-
-.burger_button.active .bar:nth-child(2) {
-  opacity: 0%;
-}
-
-.burger_button.active .bar:nth-child(3) {
-  opacity: 0%;
-}
-
-.burger_button.active .bar:nth-child(4) {
-  transform: translateY(-0.75em) rotate(45deg);
-}
-
-/* Menu de opções */
+/* Dropdown menu */
 
 .dropdown_menu {
   color: white;
@@ -108,11 +93,28 @@
   padding: 10px;
 }
 
+/* Animations */
+
+.burger_button.active .bar:nth-child(1) {
+  transform: translateY(0.75em) rotate(-45deg);
+}
+
+.burger_button.active .bar:nth-child(2) {
+  opacity: 0%;
+}
+
+.burger_button.active .bar:nth-child(3) {
+  opacity: 0%;
+}
+
+.burger_button.active .bar:nth-child(4) {
+  transform: translateY(-0.75em) rotate(45deg);
+}
+
 .dropdown_menu.active {
   opacity: 100%;
 
   display: flex;
 
   transform: translate(0rem, 0rem) scale(1);
-  transition: all 0.5s ease-in;
 }

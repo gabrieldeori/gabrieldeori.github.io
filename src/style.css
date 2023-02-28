@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Iceland&family=Poppins&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
 
-@import url("./modifiers.css");
 @import url("./traditional/style.css");
+@import url("./modifiers.css");
 
 body {
   --main-color-0: #710DF2;
@@ -11,9 +11,11 @@ body {
   --main-color-1-translucid: #141C3A99;
   --main-color-2: #5C1BAF;
   --main-color-2-translucid: #5C1BAF99;
+  --main-background-0: #f9f7f4;
 
-  background-color: grey;
+  background-color: var(--main-background-0);
   align-items: flex-start;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
