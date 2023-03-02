@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Desenvolvedor Full Stack</title>
 </head>
 <body>
@@ -17,97 +18,94 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <header>
-      <h1 class="hero-title">Desenvolvedor Full Stack</h1>
-    </header>
-
+  <main class="content-wrapper">
     <section class="introduce-section">
       <article>
-        <header>
-          <h2 class="hero-name">Gabriel de Oliveira Ribeiro</h2>
+          <h1 class="hero-title">Desenvolvedor Full Stack</h1>
+          <p class="hero-name">Gabriel de Oliveira Ribeiro</p>
+          <p></p>
           <img src="./me.jpg" alt="">
-        </header>
-        <main>
-          <p class="herou-about">Me apresentando</p>
+          <p class="hero-about">
+            Desenvolvedor full-stack em transição de carreira, 
+            trabalhei na construção civil mas sempre fui o tech-head da
+            família por paixão, decidi me especializar e me formei na
+            Trybe como desenvolvedor fulltstack.
+          </p>
           <button>Conheça mais</button>
+      </article>
+    </section>
+
+    <div class="project-skills">
+      <section class="projects-section">
+        <h2>Projetos</h2>
+        <main>
+          <article>
+            <h3>Projeto 1</h3>
+            <p>Descrição projeto</p>
+            <img src="./projectimage1.jpg" alt="projeto 1">
+          </article>
+          <article>
+            <h3>Projeto 2</h3>
+            <p>Descrição projeto</p>
+            <img src="./projectimage2.jpg" alt="projeto 2">
+          </article>
+          <article>
+            <h3>Projeto 3</h3>
+            <p>Descrição projeto</p>
+            <img src="./projectimage3.jpg" alt="projeto 3">
+          </article>
         </main>
-        <footer class="impact-phrase"></footer>
-      </article>
-    </section>
-
-    <section class="project-section">
-      <header><h2>Projetos</h2></header>
-      <article>
-        <header><h3>Projeto 1</h3></header>
-        <p>Descrição projeto</p>
-        <img src="./projectimage1.jpg" alt="projeto 1">
-      </article>
-      <article>
-        <header><h3>Projeto 2</h3></header>
-        <p>Descrição projeto</p>
-        <img src="./projectimage2.jpg" alt="projeto 2">
-      </article>
-      <article>
-        <header><h3>Projeto 3</h3></header>
-        <p>Descrição projeto</p>
-        <img src="./projectimage3.jpg" alt="projeto 3">
-      </article>
-    </section>
-
-    <section class="skills-section">
-      <header><h3>Habilidades</h3></header>
-      <main>
-        <article>
-          <header>Hardskills</header>
-          <main>
-            <ul>
-              <li>Hardskill</li>
-              <li>Hardskill</li>
-              <li>Hardskill</li>
-            </ul>
-          </main>
-          <footer></footer>
-        </article>
-        <article>
-          <header>Softskills</header>
-          <main>
-            <ul>
-              <li>Softskills</li>
-              <li>Softskills</li>
-              <li>Softskills</li>
-            </ul>
-          </main>
-          <footer></footer>
-        </article>
-        <article>
-          <header>Conceitos</header>
-          <main>
-            <ul>
-              <li>Conceito</li>
-              <li>Conceito</li>
-              <li>Conceito</li>
-            </ul>
-          </main>
-          <footer></footer>
-        </article>
-        <article>
-          <header>Boas-Práticas</header>
-          <main>
-            <ul>
-              <li>Boa-prática</li>
-              <li>Boa-prática</li>
-              <li>Boa-prática</li>
-            </ul>
-          </main>
-          <footer></footer>
-        </article>
-      </main>
-      <footer></footer>
-    </section>
+      </section>
+  
+      <section class="skills-section">
+        <h2>Habilidades</h2>
+        <main>
+          <article>
+            Hardskills
+            <main>
+              <ul>
+                <li>Hardskill</li>
+                <li>Hardskill</li>
+                <li>Hardskill</li>
+              </ul>
+            </main>
+          </article>
+          <article>
+            Softskills
+            <main>
+              <ul>
+                <li>Softskills</li>
+                <li>Softskills</li>
+                <li>Softskills</li>
+              </ul>
+            </main>
+          </article>
+          <article>
+            Conceitos
+            <main>
+              <ul>
+                <li>Conceito</li>
+                <li>Conceito</li>
+                <li>Conceito</li>
+              </ul>
+            </main>
+          </article>
+          <article>
+            Boas-Práticas
+            <main>
+              <ul>
+                <li>Boa-prática</li>
+                <li>Boa-prática</li>
+                <li>Boa-prática</li>
+              </ul>
+            </main>
+          </article>
+        </main>
+      </section>
+    </div>
 
     <section class="contact-section">
-      <header><h2>Contato</h2></header>
+      <h2>Contato</h2>
       <main>
         <h3>Telefone:</h3>
         <p>32988447670</p>
@@ -117,15 +115,13 @@
         <p>36201142</p>
         <h3>email:</h3>
         <p>deori.pessoal@gmail.com</p>
-      </main>
-      <footer>
         <ul>
           <li>Linkedin</li>
           <li>Github</li>
         </ul>
-      </footer>
+    </main>
     </section>
   </main>
-  <footer></footer>
+  <script src="./script.js" defer></script>
 </body>
 </html>
