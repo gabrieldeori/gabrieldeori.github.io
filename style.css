@@ -55,6 +55,13 @@ p {
   font-size: 1.25rem;
 }
 
+img {
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  
+}
+
 .content-wrapper {
   display: flex;
   flex-direction: row;
