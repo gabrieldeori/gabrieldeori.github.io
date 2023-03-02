@@ -1,33 +1,54 @@
 body {
-  background-color: rgb(38, 38, 46);
-  color: white;
+  background-color: #fff3f3;
+  color: #0e0d0d;
   display: flex;
   flex-direction: column;
   font-size: 62.5%;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav>ul {
+  display: flex;
+  flex-direction: row;
+}
+
 h1 {
   font-size: 3rem;
+  width: fit-content;
 }
 
 h2 {
   font-size: 2.5rem;
+  width: fit-content;
 }
 
 h3 {
   font-size: 2rem;
+  width: fit-content;
 }
 
 h4 {
   font-size: 1.5rem;
+  width: fit-content;
 }
 
 h5 {
   font-size: 1rem;
+  width: fit-content;
 }
 
 h6 {
   font-size: 0.85rem;
+  width: fit-content;
 }
 
 p {
@@ -35,7 +56,6 @@ p {
 }
 
 .content-wrapper {
-  background-color: grey;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -44,7 +64,6 @@ p {
 }
 
 .introduce-section {
-  background-color: rebeccapurple;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -61,7 +80,6 @@ p {
 }
 
 .introduce-section .hero-title {
-  background-color: red;
   width: fit-content;
   text-align: center;
 }
@@ -77,7 +95,6 @@ p {
 }
 
 .project-skills {
-  background-color: aquamarine;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -86,7 +103,7 @@ p {
 }
 
 .project-skills .projects-section {
-  background-color: burlywood;
+  align-items: center;
   display: flex;
   flex-grow: 2;
   flex-direction: column;
@@ -100,18 +117,27 @@ p {
 }
 
 .project-skills .skills-section {
-  background-color: beige;
   display: flex;
   flex-grow: 1;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-skills .skills-section main {
+  text-align: center;
+  justify-content: center;
 }
 
 .project-skills .skills-section main {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .contact-section {
-  background-color: darkgreen;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   width: 100%;
 }
